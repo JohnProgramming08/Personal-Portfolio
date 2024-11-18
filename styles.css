@@ -343,7 +343,7 @@ tbody tr:last-child td {
 
   .skill {
     width: 40%;
-    height: 10%;
+    height: 10px;
   }
 
   #qualifications {
