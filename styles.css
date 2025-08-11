@@ -199,8 +199,8 @@ h3 {
 }
 
 .experience-logo {
-	width: 100%;
-	height: 100%;
+	width: 100px;
+	height: 100px;
 	z-index: 5;
 	position: relative;
 }
@@ -237,6 +237,7 @@ h3 {
 	width: 60%;
 	padding-right: 20%;
 	padding-left: 20%;
+	padding-bottom: 10px;
 }
 
 h4 {
@@ -249,7 +250,6 @@ h4 {
 	border-radius: 50% 50% 10px 10px;
 	background-color: #111122;
 	width: 25%;
-	height: 30vh;
 	margin: 10px;
 	padding: 5px;
 	display: inline-block;
@@ -424,7 +424,7 @@ tbody tr:last-child td {
 }
 
 /* Mobile Styles */
-@media (max-width: 768px) {
+@media (max-width: 768px) or (max-width: 1024px) {
 	li a:hover {
 		font-size: 1em;
 	}
@@ -441,7 +441,6 @@ tbody tr:last-child td {
 
 	.skill {
 		width: 40%;
-		height: 170px;
 	}
 
 	#qualifications {
@@ -461,5 +460,16 @@ tbody tr:last-child td {
 
 	.grid-container {
 		grid-template-columns: 3fr 3fr 3fr;
+	}
+}
+
+/* Tablet Styles */
+@media (max-width: 1024px) and (min-width: 768px) {
+	.skill {
+		width: 30%;
+	}
+
+	table {
+		width: 60%;
 	}
 }
