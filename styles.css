@@ -324,9 +324,80 @@ tbody tr:last-child td {
 }
 
 /* Projects Section */
+#flagship-project-div {
+	background-color: #000;
+	border-radius: 1rem;
+	padding: 0.8rem;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#flagship-description {
+	font-size: 1.34rem;
+	margin-top: 1rem;
+}
+
+#mxv-banner {
+	width: 50vw;
+}
+
+#bottom-div {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: felx-start;
+	margin-top: 1.2rem;
+}
+
+#architecture, #flagship-links {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.card {
+	width: 80%;
+	padding: 0.34rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	border-radius: 0.67rem;
+	background-color: #111;
+	margin-top: 0.5rem;
+}
+
+#flagship-links a {
+	width: 90%;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	background-color: #222255;
+	border-radius: 0.67rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	text-decoration: none;
+	color: white;
+	box-shadow: 4px 4px 4px rgba(67, 67, 67, 1);
+	transition: 0.3s ease-in-out;
+	border: transparent solid 2px;
+}
+
+#flagship-links a:hover {
+	transition: 0.3s ease-in-out;
+	font-size: 1.1rem;
+	border: 2px solid white;
+}
+
 #projects {
 	width: 100%;
 	padding: 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .grid-container {
