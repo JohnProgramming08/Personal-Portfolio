@@ -260,6 +260,7 @@ h4 {
 .skill-image {
 	border-radius: 50%;
 	width: 60%;
+	aspect-ratio: 1;
 	margin: 10px;
 	background-color: white;
 	border: 10px solid transparent;
@@ -324,7 +325,7 @@ tbody tr:last-child td {
 }
 
 /* Projects Section */
-#flagship-project-div {
+.flagship-project-div {
 	background-color: #000;
 	border-radius: 1rem;
 	padding: 0.8rem;
@@ -335,16 +336,20 @@ tbody tr:last-child td {
 	justify-content: center;
 }
 
-#flagship-description {
+#open-road-div {
+	margin-top: 2rem;
+}
+
+.flagship-description {
 	font-size: 1.34rem;
 	margin-top: 1rem;
 }
 
-#mxv-banner {
+.project-banner {
 	width: 50vw;
 }
 
-#bottom-div {
+.bottom-div {
 	width: 100%;
 	display: flex;
 	align-items: center;
@@ -352,7 +357,7 @@ tbody tr:last-child td {
 	margin-top: 1.2rem;
 }
 
-#architecture, #flagship-links {
+.architecture, .flagship-links {
 	width: 50%;
 	display: flex;
 	flex-direction: column;
@@ -371,7 +376,7 @@ tbody tr:last-child td {
 	margin-top: 0.5rem;
 }
 
-#flagship-links a {
+.flagship-links a {
 	width: 90%;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
@@ -386,7 +391,7 @@ tbody tr:last-child td {
 	border: transparent solid 2px;
 }
 
-#flagship-links a:hover {
+.flagship-links a:hover {
 	transition: 0.3s ease-in-out;
 	font-size: 1.1rem;
 	border: 2px solid white;
